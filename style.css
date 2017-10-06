@@ -1,0 +1,73 @@
+body{
+	background-color:#00d4ff;
+}
+
+#div{
+	border:10px double white;
+}
+
+div{
+	margin:20px;
+	padding:10px;
+	background-color:black; 
+	color:white; 
+	text-align:center;
+	border-radius:30px;
+}
+
+nav{
+	height:10px;
+	 padding-top:10px;
+	text-decoration: none;
+
+}
+
+a:link{
+	vertical-align:top;
+	text-decoration: none;
+	color:#0de50d;
+	font-size:20px;
+	padding:20px;
+
+}
+
+a:visited{
+	vertical-align:top;
+	text-decoration: none;
+	color:#0de50d;
+	font-size:20px;
+	padding:20px;
+}
+
+a:hover{
+	vertical-align:middle;
+	text-decoration:none;
+	font-size:30px;
+	padding-right:11px;
+	padding-left:0px;
+}
+
+#home{
+}
+
+#aboutMe{
+}
+
+#project{
+}
+
+ul{
+	list-style-position:inside;
+}
+
+.song{
+	color:#00d4ff;
+}
+
+#button{
+	margin-top:20px
+}
+
+#imgBUTTON{
+	height:500px;
+}
