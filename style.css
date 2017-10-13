@@ -46,6 +46,25 @@ a:hover{
 	padding-right:11px;
 	padding-left:0px;
 }
+#eightball a:link{
+	vertical-align:middle;
+ 	padding:0px;
+ 	color:yellow;
+ 	font-size:14px;
+}
+#eightball a:visited{
+	vertical-align:middle;
+	padding:0px;
+ 	color:yellow;
+ 	font-size:14px;
+}
+#eightball a:hover{
+	vertical-align:middle;
+	padding:0px;
+	text-decoration:underline;
+	color:yellow;
+	font-size:14px;
+}
 
 #home{
 }
@@ -70,4 +89,8 @@ ul{
 
 #imgBUTTON{
 	height:500px;
+}
+
+#magic8ball{
+	width:300px;
 }
