@@ -15,6 +15,10 @@ function callImage(){
 	document.getElementById("magic8ball").src=list[randomNumber()];
 }
 
+function returnImage(){
+	document.getElementById("magic8ball").src = "magic8ball.png";
+}
+
 function returnParagraph(){
 	document.getElementById("results").innerHTML = "Click the Magic 8 Ball to tell your fortune."
 }
@@ -23,10 +27,13 @@ function shake8ball(){
 	//changes image to random from array
 
 	document.getElementById("results").innerHTML = "Magic is hapenning...";
+	document.getElementById("magic8ball").src = "spinning_eight_ball.gif";
 
-	setTimeout(callImage,1000);
+	setTimeout(callImage,2000);
 
-	setTimeout(returnParagraph,1000);
+	setTimeout(returnParagraph,2000);
+
+	setTimeout(returnImage, 7000)
 
 
 	//document.getElementById("magic8ball").src=list[randomNumber()];
