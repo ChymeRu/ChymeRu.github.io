@@ -11,14 +11,27 @@ function randomNumber(){
 
 }
 
+function callImage(){
+	document.getElementById("magic8ball").src=list[randomNumber()];
+}
+
+function returnParagraph(){
+	document.getElementById("results").innerHTML = "Click the Magic 8 Ball to tell your fortune."
+}
+
 function shake8ball(){
 	//changes image to random from array
 
-	document.getElementById("magic8ball").src=list[randomNumber()];
+	document.getElementById("results").innerHTML = "Magic is hapenning...";
+
+	setTimeout(callImage,1000);
+
+	setTimeout(returnParagraph,1000);
+
+
+	//document.getElementById("magic8ball").src=list[randomNumber()];
 
 	//change text underneath ball
 
-	
-	alert("Magic Is Happening...");
 
 }
