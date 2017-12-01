@@ -117,9 +117,14 @@ ul{
 	border-width:2px;
 	border-color:black;
 	float:left;
-	color:black;
 	vertical-align:middle;
 	line-height:100px;
 	font-size:50px;
+}
+.oCSS{
+	color:#00d4ff;
+}
+.xCSS{
+	color:red;
 }
 
