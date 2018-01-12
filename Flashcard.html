@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link rel="icon" href="favicon.ico"/> 
+		<title>Flashcard</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="adding.js"></script>
+	</head>
+	<body onLoad="AssignNumbers();">
+		<div id="container">
+			<nav>
+				<a href="index.html" id="Home">
+					Home   
+				</a>
+				<a href="aboutMe.html" id="aboutMe">
+					About Me   
+				</a>
+				<a href="project.html" id="project">
+					Projects
+				</a>
+			</nav>
+			<div id="main">
+				<br>
+				<br>
+				<div id="number1"></div>
+				+
+				<br>
+				<div id="number2"></div>
+				<br>
+				----------------------------
+				<br>
+				<input id="output" type="number" value="">
+				<br>
+				<br>
+				<input type="button" onclick="compute();" value="Check">
+				<br>
+				<input type="button" onclick="AssignNumbers();" value="New Numbers">
+				<br>
+				<div id="Correct"></div>
+				<br>
+				<br>
+
+		</div>
+		</div>
+	</body>
+</html>

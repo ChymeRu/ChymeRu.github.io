@@ -25,6 +25,8 @@ function turn(location) {
 
 //clears X's and O's
 function clearALL(){
+	document.getElementById("winner").innerHTML = "";
+	character = "<div class = 'oCSS'>O</div>";
 	document.getElementById("r1c1").innerHTML = "";
 	document.getElementById("r1c2").innerHTML = "";
 	document.getElementById("r1c3").innerHTML = "";
@@ -56,6 +58,10 @@ function checkWinner(winner){
 	 	r1c3 == r2c3 && r1c3 == r3c3 && r1c3 != "" ||
 		r1c1 == r2c2 && r1c1 == r3c3 && r1c1 != "" || 
 		r3c1 == r2c2 && r3c1 == r1c3 && r3c1 != ""){
-		document.getElementById("winner").innerHTML = "WINNER!!!";
+		if(character == "<div class = 'xCSS'>X</div>"){
+		document.getElementById("winner").innerHTML = "X WINS!!!";
+	}else{
+		document.getElementById("winner").innerHTML = "O WINS!!!";
 		}
+	}
 }
