@@ -20,6 +20,7 @@ function randomDivision(){
 function AssignNumbers(){
 	var Division = randomDivision();
 	console.log(randomOperator());
+	Operator = randomOperator();
 	if(Operator == 0){
 		document.getElementById("Operator").innerHTML = "+";
 	}
@@ -32,8 +33,7 @@ function AssignNumbers(){
 	else if(Operator == 3){
 		document.getElementById("Operator").innerHTML = "/";
 	}
-
-
+  
 	if(Operator == 0 || Operator == 1){
 		document.getElementById("number1").innerHTML = randomNumber();
 		document.getElementById("number2").innerHTML = randomNumber();
@@ -48,7 +48,7 @@ function AssignNumbers(){
 	}
 
 	document.getElementById("Correct").innerHTML = "";
-	Operator = randomOperator();
+
 }
 
 function compute(){

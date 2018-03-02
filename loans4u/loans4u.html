@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>
+			loans4u!
+		</title>
+		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD5M5S0Xsz6Svi6zG5Bt23wzuhw8QpGoT4",
+    authDomain: "loans4u-475cb.firebaseapp.com",
+    databaseURL: "https://loans4u-475cb.firebaseio.com",
+    projectId: "loans4u-475cb",
+    storageBucket: "loans4u-475cb.appspot.com",
+    messagingSenderId: "555938648956"
+  };
+  firebase.initializeApp(config);
+</script>
+		<script src="Loan.js"></script>
+	</head>
+	<body align="center">
+		<h1>Loans4U!
+		<br>
+
+		<input id="Name" type="text" value="" placeholder="Name">
+		<input id="IndebtedTo" type="text" value="" placeholder="Indebted to Name">
+		<input id="Debt_Amount" type="text" value="" placeholder="Debt Amount">
+		<input id="Interest_Rate" type="text" value="" placeholder="Interest Rate Per Day">
+		<input id="Interest_Period" type="text" value="" placeholder="No Interest Period">
+		<input id="Date" type="button" onclick="CreateDebt();" value="Enter Loan">
+		<br>
+		<br>
+		<input id="Check" type="text" value="" placeholder="Name">
+		<input id="Indebted_Check" type="text" value="" placeholder="Indebted to Name">
+		<input id="New_Date" type="button" value="Check Loan">
+
+	</body>
+</html>
